@@ -12,13 +12,14 @@
     width: 150px; height: 150px; padding: 0.5em; 
         
     position: relative;
-    left: 670px;
-    top: 153px;
+    left: 100px;
+    top: 100px;
   }
 
   </style>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="../libs/js/jquery.ui.touch-punch.min.js"></script>
   <script>
   $( function() {
     $( "#draggable" ).draggable();
